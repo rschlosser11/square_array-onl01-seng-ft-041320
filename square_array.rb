@@ -1,6 +1,7 @@
 def square_array(array)
+  array_squared = [];
   array.each do |number|
-    number**2
+    array_squared << number**2
   end;
-  return array;
+  return array_squared;
 end
